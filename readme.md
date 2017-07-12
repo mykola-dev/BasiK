@@ -1,5 +1,7 @@
 ```kotlin
-basic {
+fun main(args: Array<String>) {
+
+    basic {
         1 REM "This is BASIK - BASIC interpretator written in Kotlin"
         10 PRINT "Hello World!"
         20 FOR I(1 TO 5)
@@ -12,4 +14,6 @@ basic {
         90 LET { A = "BASIC is cool, right?" }
         100 PRINT { A }
     }
+
+}
 ```
