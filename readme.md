@@ -2,7 +2,7 @@
 fun main(args: Array<String>) {
 
     basic {
-        1 REM "This is BASIK - BASIC interpretator written in Kotlin"
+        1 REM "This is BASIK - BASIC interpreter written in Kotlin"
         10 PRINT "Hello World!"
         20 FOR I(1 TO 5)
         30 PRINT { "Iteration: " + I }
